@@ -1,10 +1,12 @@
 {
   "scripts": {
     "build": "tsc",
-    "start": "func start",
+    "start": "func start"
   },
   "dependencies": {
-    "@azure/functions": "^4.0.0"
+    "@azure/cosmos": "^4.7.0",
+    "@azure/functions": "^4.0.0",
+    "@azure/identity": "^4.13.0"
   },
   "devDependencies": {
     "@types/node": "18.x",
