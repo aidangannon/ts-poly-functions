@@ -1,5 +1,5 @@
 export type Event = {
-  id: string;
-  payload: Record<string, any>;
-  timestamp: Date;
+    id: string;
+    payload: Record<string, any>;
+    timestamp: Date;
 }
