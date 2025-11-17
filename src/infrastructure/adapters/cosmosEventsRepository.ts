@@ -16,6 +16,8 @@ async function add(event: Event): Promise<void>{
     await container.items.create(event);
 };
 
-const CosmosEventsRepository = {
+const cosmosEventsRepository = {
     add: add
 } satisfies EventsRepository;
+
+export default cosmosEventsRepository;
